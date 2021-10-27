@@ -42,6 +42,7 @@ h1 {
 
 .success {
   grid-column-start: 2;
+  width: 25vw;
 }
 
 @keyframes App-logo-spin {
