@@ -31,6 +31,7 @@ PGDATABASE=signup
 PGPORT=5432
 `
 <br/>
+<br/>
 <strong>Once you have done that please execute the signup.sql on your database to create the right table.</strong>
 
 `Otherwise there might be some issues bc the app uses environment variables.`
