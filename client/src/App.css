@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+.Signup-Form {
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.settings {
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-gap: 2vw;
+  justify-content: center;
+  margin-top: 7vh;
+}
+
+.settings label { 
+  text-align: right; 
+}
+
+.settings label:after {
+  content: ":"; 
+}
+
+.signup {
+  grid-column-start: 2;
+  background-color: #004181;
+  color: white;
+  height: 5vh;
+  font-size: 3vh;
+  width: 25vw;
+}
+
+.success {
+  grid-column-start: 2;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
